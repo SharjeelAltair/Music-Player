@@ -9,18 +9,7 @@ Seek Bar: Navigate through tracks easily with a responsive seek bar.
 Volume Control: Adjust the volume with a slider for personalized audio control.
 Previous/Next Tracks: Easily switch between songs in your playlist.
 Auto-Detection of New Albums: Automatically detects new album folders on the local machine and updates the song list without the need for a backend.
-Installation
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/song-library.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd song-library
-Open index.html in your web browser to start using the Song Library.
 
 Usage
 Place your music files and album folders in the designated directory.
