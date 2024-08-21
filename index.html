@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music City</title>
+  <link rel="stylesheet" href="style.css ">
+  <link rel="stylesheet" href="utility.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="left">
+      <i class="fa-solid fa-xmark x-mark"></i>
+      <div class="logo">
+        <h1>Music City</h1>
+      </div>
+      <div class="library">
+        <h1>Library</h1>
+        <div class="songs">
+          <ul>
+          </ul>
+        </div>
+        <div class="footer">
+          <p class="songinfo"> sharjeelAc@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="right ">
+      <div class="header">
+        <div class="search-box">
+          <i class="fa-solid fa-bars bars"></i>
+          <input type="text" placeholder="Search Music Here">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="log">
+          <button>Welcome</button>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="img">
+          <img src="assets/banner5.png" alt="">
+        </div>
+        <div class="text">
+          <h1>Positive Vibes</h1>
+          <h2>Turn that frown upside down with these pop vibes.</h2>
+          <p>Dream your moments, Until I Met You, Gimme Some Courage, Dark Alley, One More Of A Stranger, Endless
+            Things, The Heartbeat Stops, Walking Promises, Desired Games and many more...</p>
+        </div>
+      </div>
+      <h1 class="PopularAlbums">Popular Albums</h1>
+      <div class="albums">
+      </div>
+      <div class="play-bar">
+        <div class="controls">
+          <p class="songinfos">
+            songname
+          </p>
+          <div class="duration">00:00 / 00:00 </div>
+        </div>
+        <div class="seekBar">
+          <div class="circle">
+            <i id="circle" class=" circle fa-solid fa-circle"></i>
+          </div>
+        </div>
+        <div class="buttons">
+          <img id="previous" src="assets/SVGS/privous.svg" alt="">
+          <img id="play" src="assets/SVGS/play.svg" alt="">
+          <img id="next" src="assets/SVGS/next.svg" alt="">
+          <div class="volume">
+            <img src="assets/SVGS/volume.svg" alt="">
+            <input type="range" name="volume">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
